@@ -1,0 +1,32 @@
+section.contact_section{
+	padding: 25px 0 15px;
+    background-color: #fafafa;
+    div.address{
+    	display: flex;
+    	justify-content: center;
+    	address{
+    		display: flex;
+    		flex-wrap: wrap;
+    		justify-content: center;
+    		margin-bottom: 0;
+    		div.address_item{
+    			display: flex;
+    			align-items: center;
+    			margin-right: 30px;
+    			margin-bottom: 15px;
+    			figure{
+    				width: 25px;
+    				margin-right: 10px;
+    				text-align: center;
+    			}
+    			div.contact_text{
+    				flex: 1;
+    				font-size: 14px;
+    				a{
+    					color: #353535;     
+    				}
+    			}
+    		}
+    	}
+    }
+}

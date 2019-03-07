@@ -1,0 +1,37 @@
+section.services_section{
+	display: grid;
+	grid-template-columns: 50% 50%;
+	div{
+		a:after{
+			display: block;
+            position: absolute;
+            content: "";
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            background: linear-gradient(0deg,rgba(0,113,188,.4) 0,rgba(125,185,232,.1) 100%);
+		}
+		a:hover{
+		    opacity: .7;
+		    transition: all .4s ease;
+		}
+		a{
+			display: block;
+            color: #fff;
+            img{
+            	width: 100%;
+            }
+            span{
+            	display: block;
+                position: absolute;
+                left: 40px;
+                right: 40px;
+                bottom: 40px;
+                font-size: 40px;
+                font-weight: 700;
+                z-index: 2;
+            }
+		}
+	}
+}

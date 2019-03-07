@@ -1,0 +1,22 @@
+footer{
+	padding: 30px 0;
+	div.copyrights{
+		margin-bottom: 15px;
+        color: #a3a3a3;
+        text-align: center;
+	}
+	div.author{
+		text-align: center;
+        color: #a3a3a3;
+        a{
+        	svg.artmedia_svg{
+        		stroke: #a3a3a3;
+        		width: 108px;
+                height: 20px;
+                fill: none;
+                stroke: #5ebc00;
+                stroke-width: 1.5;
+        	}
+        }
+	}
+}
