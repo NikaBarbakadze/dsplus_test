@@ -62,10 +62,10 @@ section.top_wrap{
 				ul{
 					display: flex;
 					li.active>a{
-							color: #5ebc00;
+							color: $primary-color;
 						}
 					li:hover>a{
-						color: #5ebc00;
+						color: $primary-color;
 					}
 					li:hover ul {
 						transition: all .4s ease;
@@ -95,7 +95,7 @@ section.top_wrap{
 							border-radius: 20px;
 							box-shadow: 0 3px 5px 0 rgba(0,0,0,.15);
 							li:hover a{
-								color: #5ebc00;
+								color: $primary-color;
 							}
 							li{
 								position: relative;
@@ -134,7 +134,7 @@ section.top_wrap{
 							font-size: 15px;
 							cursor: pointer;
 							i:hover{
-								color: #5ebc00;
+								color: $primary-color;
 							}
 						}
 					}
@@ -150,7 +150,7 @@ section.top_wrap{
 						color: #fff;
 						font-size: 10px;
 						text-transform: uppercase;
-						background-color: #5ebc00;
+						background-color: $primary-color;
 						border-radius: 50%;
 
 					}
