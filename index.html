@@ -127,14 +127,14 @@
 		</header>
 	</section>
     <section class="slider_wrap">
-    	<div>
-    		<div class="single-item">
+    	<div class="single-item">
+    		<div>
     			<img src="media/hero.jpg">
     		</div>
-    		<div class="single-item">
+    		<div>
     			<img src="media/hero.jpg">
     		</div>
-    		<div class="single-item">
+    		<div>
     			<img src="media/hero.jpg">
     		</div>
     		
@@ -265,8 +265,10 @@
 <script type="text/javascript" src="script/js/slick.js"></script>
 <script type="text/javascript">
 	$(document).ready(function(){
-        $('.single-item').slick();
-          
+        $('.single-item').slick({
+            autoplay: true,
+            autoplaySpeed: 3000,
+        })       
     });
 </script>
 </body>
